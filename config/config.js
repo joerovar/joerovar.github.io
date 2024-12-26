@@ -29,7 +29,7 @@ export const navigation = {
   ],
 }
 export const intro = {
-  title: "Hey, I'm Hashir",
+  title: "Hey, I'm Joseph",
   description: "A Computer Engineer creating mobile apps and static websites.",
   image: profile.src,
   buttons: [
@@ -135,7 +135,7 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
   // 50 - 60 char  
-  title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
+  title: "Joseph Rodriguez",
   description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
   image: profile.src,
 }
