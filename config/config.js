@@ -1,6 +1,6 @@
 
 import profile from './profile.png';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faBookOpen } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
@@ -43,15 +43,20 @@ export const intro = {
       link: "https://drive.google.com/file/d/1HkIOMv1ku-ncGpFHFPbAgN7CXjBR66Vr/view?usp=drive_link",
       isPrimary: false,
     },
+    {
+      title: "Google Scholar",
+      link: "https://scholar.google.com/citations?user=pfrkREAAAAAJ&hl=en",
+      isPrimary: false,
+    },
   ],
 }
 
 export const about = {
   title: "Who I am",
   description: [
-    "I am currently pursuing a PhD at Northeastern University, advised by Prof. Haris Koutsopoulos.",
-    "I have experience with implementation projects, solving technical challenges and managing teams of practitioners and developers.",
-    "When I'm not thinking about transit, I am reading nonfiction, playing the guitar, or practicing salsa!"
+    "I am a data scientist and researcher with domain expertise in public transit and mobility systems.",
+    "I've developed technology to enhances operational decisions on the field that has translated into improvements in service quality.",
+    "Outside of my work, I like reading nonfiction, playing chess or tennis and drinking mate!"
   ],
 }
 
@@ -60,61 +65,61 @@ export const work = {
   cards: [
     {
       title: "Transit Data Analytics",
-      description: "Evaluating service reliability from the perspective of riders and operators.",
+      description: "Asssess transit performance and how it impacts the rider and operator experience.",
       icons: null,
     },
     {
       title: "Transit Operations Control",
-      description: "Develop control techniques to improve service reliability and save rider wait times.",
+      description: "Design algorithms for more efficient and reliable bus and rail dispatching.",
       icons: null,
     },
     {
-      title: "Building Decision Tools",
-      description: "End-to-end solutions for operational staff to make better service decisions.",
+      title: "Decision-making Tools",
+      description: "Build production-ready tools that intergrate into workflows for field staff.",
       icons: null
     }
   ],
 }
 
 export const projects = {
-  title: "Talks",
+  title: "Papers",
   cards: [
     {
-      title: "Transit Operations Control and AI in Practice (2023)",
-      description: "Guest Lecture for Course in Behavioral Science, AI, and Urban Mobility at MIT (Prof. Jinhua Zhao).",
+      title: "Cooperative bus holding and stop-skipping (2023)",
+      description: "Reinforcement learning for improved rider waiting and travel times.",
       icons: [
-        // {
-        //   icon: faGithub,
-        //   link: "https://github.com/joerovar",
-        // },
+        {
+          icon: faBookOpen,
+          link: "https://github.com/joerovar",
+        },
       ]
     },
-    {
-      title: "Decision Support Tool for Bus Dispatching in Chicago (2023)",
-      description: "Young Member Webinar Series at TRB Transit Data Committee.",
-      icons: [
-      ]
-    },
-    {
-      title: "Clustering Analysis for Understanding Bus Driver Work Preferences (2024)",
-      description: "Talk at Transit Data Conference in London (UK)",
-      icons: [
-        // {
-        //   icon: faGithub,
-        //   link: "https://github.com/hashirshoaeb/portfolio",
-        // },
-      ]
-    },
+    // {
+    //   title: "Decision Support Tool for Bus Dispatching in Chicago (2023)",
+    //   description: "Young Member Webinar Series at TRB Transit Data Committee.",
+    //   icons: [
+    //   ]
+    // },
+    // {
+    //   title: "Clustering Analysis for Understanding Bus Driver Work Preferences (2024)",
+    //   description: "Talk at Transit Data Conference in London (UK)",
+    //   icons: [
+    //     // {
+    //     //   icon: faGithub,
+    //     //   link: "https://github.com/hashirshoaeb/portfolio",
+    //     // },
+    //   ]
+    // },
   ],
 }
 
 export const contact = {
   title: "Get in touch",
-  description: "Feel free to reach out directly by email at rodriguez.josep@northeastern.edu.",
+  description: "Feel free to reach out directly by email at joseph.rodriguez.v@gmail.com",
   buttons: [
     {
       title: "Email Me",
-      link: "mailto:rodriguez.josep@northeastern.edu",
+      link: "mailto:joseph.rodriguez.v@gmail.com",
       isPrimary: true,
     },
     // {
@@ -129,7 +134,7 @@ export const contact = {
 export const SEO = {
   // 50 - 60 char  
   title: "Joseph Rodriguez",
-  description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+  description: "I work on data solutions, tools and analyses to address challenges in transit operations.",
   image: profile.src,
 }
 
