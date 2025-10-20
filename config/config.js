@@ -30,7 +30,7 @@ export const navigation = {
 }
 export const intro = {
   title: "Hey, I'm Joseph",
-  description: "A transportation engineer using data and domain knowledge to improve public transit for riders and operators.",
+  description: "I am a data scientist and researcher with domain expertise in public transit and mobility systems.",
   image: profile.src,
   buttons: [
     {
